@@ -1,0 +1,43 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: black;
+}
+
+.issue-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.issue {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.issue h3 {
+  margin: 0 0 10px;
+}
+
+.issue p {
+  margin: 0 0 10px;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.open {
+  color: red;
+}
+
+.status.closed {
+  color: green;
+}
